@@ -1,0 +1,17 @@
+h2{
+    text-align: center;
+    color: brown;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+.mi-formulario{
+    background-color: rgb(238, 167, 142);
+    padding: 20px;
+    width: 500px;
+   
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+}
