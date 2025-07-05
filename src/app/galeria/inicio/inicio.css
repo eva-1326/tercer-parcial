@@ -1,8 +1,8 @@
- .card{
+ /* .contenedor{ 
 background-color: rgb(238, 167, 142);
     padding: 20px;
     width: 500px;
-   
+   display: flex;
     border-radius: 10px;
     text-align: center;
     justify-content: center;
@@ -13,5 +13,42 @@ background-color: rgb(238, 167, 142);
 }
 .letra{
     display: inline;
-    padding: 2opx;
+    padding: 20px;
+}*/
+
+
+
+.contenedor {
+    width: 50%;
+    margin: 40px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+
+
+.contenido-horizontal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    gap: 30px;
+}
+.texto {
+    flex: 1;
+    background-color: #e0f7fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.imagen {
+    flex: 1;
+    text-align: center;
+}
+
+.imagen img {
+    max-width: 60%;
+    height: auto;
+    border-radius: 6px;
 }

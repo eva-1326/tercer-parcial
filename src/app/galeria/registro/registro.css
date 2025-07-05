@@ -5,6 +5,8 @@ h2{
 .contenedor{
     display: flex;
     justify-content: center;
+    width: 100px;
+    height: 90px;
 }
 .mi-formulario{
     background-color: rgb(238, 167, 142);

@@ -1,3 +1,18 @@
-.contenedor{
-    background-color: black;
-}
+
+ .container-fluid{
+  background-color: black;
+    padding: 20px;  
+ }
+ .container-fluid a{
+    color: white;
+    text-decoration: none;
+
+ }
+ .container-fluid a:hover{
+    border-radius: 15px;
+    background-color: aqua;
+
+
+
+ }
+ 
